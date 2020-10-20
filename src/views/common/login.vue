@@ -3,8 +3,8 @@
     <div class="site-content__wrapper">
       <div class="site-content">
         <div class="brand-info">
-          <h2 class="brand-info__text">renren-fast-vue</h2>
-          <p class="brand-info__intro">renren-fast-vue基于vue、element-ui构建开发，实现renren-fast后台管理前端功能，提供一套更优的前端解决方案。</p>
+          <h2 class="brand-info__text">管理后台</h2>
+          <p class="brand-info__intro">这个项目基于vue、element-ui构建开发，从而实现后台管理前端功能，提供一套更优的前端解决方案。</p>
         </div>
         <div class="login-main">
           <h3 class="login-title">管理员登录</h3>
@@ -62,7 +62,7 @@
       }
     },
     created () {
-      this.getCaptcha()
+      this.getCaptcha();
     },
     methods: {
       // 提交表单
@@ -155,6 +155,9 @@
       position: absolute;
       top: 0;
       right: 0;
+      left: 0;
+      bottom: 0;
+      margin: auto;
       padding: 150px 60px 180px;
       width: 470px;
       min-height: 100%;

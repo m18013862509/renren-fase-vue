@@ -17,11 +17,15 @@
           </template>
           <el-menu-item index="demo-echarts" @click="$router.push({ name: 'demo-echarts' })">
             <icon-svg name="tubiao" class="site-sidebar__menu-icon"></icon-svg>
-            <span slot="title">echarts</span>
+            <span slot="title">Echarts</span>
           </el-menu-item>
           <el-menu-item index="demo-ueditor" @click="$router.push({ name: 'demo-ueditor' })">
             <icon-svg name="editor" class="site-sidebar__menu-icon"></icon-svg>
-            <span slot="title">ueditor</span>
+            <span slot="title">富文本点击器</span>
+          </el-menu-item>
+          <el-menu-item index="demo-code" @click="$router.push({ name: 'demo-code' })">
+            <icon-svg name="editor" class="site-sidebar__menu-icon"></icon-svg>
+            <span slot="title">代码生成器</span>
           </el-menu-item>
         </el-submenu>
         <sub-menu
